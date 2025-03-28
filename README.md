@@ -389,11 +389,26 @@ jobs:
 
 ### 演習1: Issueの作成と管理
 
-1. 以下の機能に関するIssueを作成します：
-   - TODOアイテムの追加機能
-   - TODOアイテムの完了/未完了の切り替え機能
-   - TODOアイテムの削除機能
-   - TODOリストのフィルタリング機能
+1. 以下の機能に関するIssue(branch_name: [tag_name]/issue-[issue番号]-機能名)を作成します： **issue番号は、issueを作成した順に決まるため、実際は異なる場合がある**
+   - TODOアイテムの追加機能(feature/issue-1-add-todo-item)
+   - TODOアイテムの完了/未完了の切り替え機能(feature/issue-2-toggle-todo-status)
+   - TODOアイテムの削除機能(feature/issue-3-delete-todo-item)
+   - TODOリストのフィルタリング機能(feature/issue-4-filter-todo-list)
+
+   参照: [Github: Issueの作り方](https://docs.github.com/ja/issues/tracking-your-work-with-issues/using-issues/creating-an-issue)
+
+  ブランチの階層を視覚的に表すと、以下のようになります。
+  ```
+  main
+  │
+  └── develop
+      │
+      ├── feature/issue-1-add-todo-item
+      ├── feature/issue-2-toggle-todo-status
+      ├── feature/issue-3-delete-todo-item
+      └── feature/issue-4-filter-todo-list
+  ```
+
 
 2. 各Issueに適切なラベルとマイルストーンを設定します。
 
